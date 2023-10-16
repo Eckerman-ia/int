@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     
         newTab.classList.add('active');
     
-        newIframe.src = 'https://eckerman-ia.github.io/int/';
+        newIframe.src = 'https://eckerman-ia.github.io/';
         newIframe.dataset.tabId = tabCounter;
         newIframe.classList.add('active');
         iframeContainer.appendChild(newIframe);
