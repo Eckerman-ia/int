@@ -11,11 +11,8 @@ while(true){
 win.moveTo(Math.random() * 1982, Math.random() * 1080);
 win.resizeTo(Math.random() * 1982, Math.random() * 1080);
 }
- var x = document.getElementById("farewell_eardrums.wav");
-
-function playAudio() {
-  x.play();
-}
+var audio = new Audio('farewell_eardrums.wav');
+audio.play();
 </script>
 </body>
 </html>
